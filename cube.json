@@ -1,0 +1,19 @@
+{
+	"id": "Q3hnXZi4bsE",
+	"version": "1.1.0",
+	"name": "cube游戏模板1",
+	"idn": "game_play",
+	"keywords": [
+		""
+	],
+	"ie": 8,
+	"disable_expand": false,
+	"launchimg": "assets/launchimg.png",
+	"files": [
+		"cube.tpl",
+		"cube.css",
+		"cube.js",
+		"api.js",
+		"assets/launchimg.png"
+	]
+}

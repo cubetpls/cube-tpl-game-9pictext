@@ -1,0 +1,127 @@
+#record-games {
+  height: 154px;
+  overflow: hidden;
+}
+#record-games ul {
+  margin-left: -20px;
+}
+#record-games .record-item {
+  float: left;
+  width: 174px;
+  margin-left: 20px;
+  margin-bottom: 14px;
+}
+#record-games .record-item .image {
+  float: left;
+  width: 70px;
+  height: 70px;
+  position: relative;
+  margin-right: 10px;
+}
+#record-games .record-item .image img {
+  width: 70px;
+  height: 70px;
+  vertical-align: middle;
+}
+#record-games .record-item .content {
+  padding-top: 3px;
+  color: #999;
+  overflow: hidden;
+}
+#record-games .record-item .name {
+  width: 94px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 14px;
+  color: #333;
+  line-height: 16px;
+  height: 16px;
+} 
+#record-games .record-item .info {
+  line-height: 22px;
+  margin-bottom: 8px;
+  height: 22px;
+}
+#record-games .record-item .cate {
+  float: left;
+  margin-right: 6px;
+}
+#record-games .record-item .score {
+  display: inline-block;
+  width: 45px;
+  height: 15px;
+  background-image: url(//hao1.qhimg.com/t01e8af9953e6bc08fc.png);
+  background-image: -webkit-image-set(url(//hao1.qhimg.com/t01e8af9953e6bc08fc.png) 1x, url(//hao1.qhimg.com/t014864a6f532bf591a.png) 2x);
+  background-image: image-set(url(//hao1.qhimg.com/t01e8af9953e6bc08fc.png) 1x, url(//hao1.qhimg.com/t014864a6f532bf591a.png) 2x);
+  background-position: left center;
+  background-repeat: no-repeat;
+  text-indent: -9999px;
+  margin-top: 3px;
+}
+#record-games .record-item .button-wrap a {
+  display: block;
+  width: 94px;
+  height: 20px;
+  line-height: 20px;
+  font-size: 12px;
+  color: #fff;
+  text-align: center;
+  background-color: #00c13c;
+  border-radius: 2px;
+  text-decoration: none;
+}
+
+#record-games .record-item .button-wrap a:hover {
+  background-color: #1ad354;
+}
+
+#iguess h5 {
+  font-weight: normal;
+  color: #999999
+}
+#iguess .game-list {
+  clear: both;
+  list-style: none;
+  margin-left: -32px;
+}
+#iguess .game-list .item {
+  width: 48px;
+  float: left;
+  text-align: center;
+  line-height: 22px;
+  margin-left: 32px;
+}
+#iguess .game-list .item img {
+  width: 48px;
+  height: 48px;
+  vertical-align: middle
+}
+#iguess .game-list .item .text {
+  display: inline-block;
+  width: 48px;
+  height: 22px;
+  overflow: hidden;
+}
+
+.wrapper {
+  height: 156px;
+  overflow: hidden;
+}
+.split {
+  /* visibility: hidden; */
+  margin: 8px 0;
+  border: none;
+  border-bottom: 1px dashed #dddddd;
+  clear: both;
+}
+
+@media cube and (expand) {
+  .split {
+    visibility: visible;
+  }
+  .wrapper {
+    height: auto;
+  }
+}
+

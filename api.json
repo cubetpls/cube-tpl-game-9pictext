@@ -1,0 +1,65 @@
+{
+  "detail": {
+    "host": "https://xiaoyouxi.360.cn/cube/play",
+    "timeout": 5000,
+    "data": {
+      "fmt": "jsonp"
+    },
+    "cb": "_callback",
+    "offline": {
+      "relates": [
+        {
+          "name": "森林冰火人",
+          "img": "https://hao7.qhimg.com/t0152b5419c74b6b81d.jpg",
+          "url": "https://xiaoyouxi.360.cn/detail?id=b5gWYoMzSVirQk"
+        },
+        {
+          "name": "灰姑娘化妆",
+          "img": "https://hao7.qhimg.com/t015ae4e493b4e95f6f.jpg",
+          "url": "https://xiaoyouxi.360.cn/detail?id=b5IXZIc3TFCnQx"
+        },
+        {
+          "name": "彩虹糖甜点",
+          "img": "https://hao7.qhimg.com/t01f8c954dc91f301c7.jpg",
+          "url": "https://xiaoyouxi.360.cn/detail?id=acMZZ1QyTlmsQE"
+        },
+        {
+          "name": "植物大战僵尸",
+          "img": "https://hao7.qhimg.com/t015dc745f47f02df54.jpg",
+          "url": "https://xiaoyouxi.360.cn/detail?id=askVYIU4TFWnRx"
+        },
+        {
+          "name": "熊大与熊二",
+          "img": "https://hao7.qhimg.com/t0103b3b515b299d039.jpg",
+          "url": "https://xiaoyouxi.360.cn/detail?id=aMcdMII0SVirQk"
+        }
+      ],
+      "played_games": [
+        {
+          "name": "CS挑战赛",
+          "img": "https://hao7.qhimg.com/t015a0da404b3798a24.jpg",
+          "url": "",
+          "type": "射击"
+        },
+        {
+          "name": "保卫萝卜",
+          "img": "https://hao7.qhimg.com/t01f12f7d07e9b6d8d6.jpg",
+          "url": "",
+          "type": "策略"
+        },
+        {
+          "name": "帮鸟儿解冻",
+          "img": "https://hao7.qhimg.com/t01a20619163bd4a4d6.jpg",
+          "url": "",
+          "type": "益智"
+        },
+        {
+          "name": "割绳子",
+          "img": "https://hao7.qhimg.com/t01243e1de58c14f639.jpg",
+          "url": "",
+          "type": "益智"
+        }
+      ]
+    }
+  }
+}
