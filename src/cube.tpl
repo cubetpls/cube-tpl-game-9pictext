@@ -6,7 +6,7 @@
             <div class="image">
                <a href="{{item.url}}">
                   {{#if item.img}}
-                  <img src="{{item.img|clipImage:'70_70_'}}" onerror="this.onerror=null; this.src='https://hao1.qhimg.com/t01170caf5747fe355d.png'">
+                  <img src="{{item.img|clipImage:'70_70_'}}">
                   {{/if}}
                </a>
             </div>
@@ -32,7 +32,7 @@
          {{#list detail.relates as item by item_index}}
          <li class="item">
             <a href="{{item.url}}">
-               <img src="{{item.img|clipImage: '48_48_75'}}" onerror="this.onerror=null; this.src='https://hao4.qhimg.com/t011445f046772f6866.png'" alt="">
+               <img src="{{item.img|clipImage: '48_48_75'}}">
                <span class="text">{{item.name}}</span>
             </a>
          </li>
